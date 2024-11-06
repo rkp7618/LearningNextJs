@@ -2,6 +2,9 @@
   "name": "react-part-2",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,9 +13,9 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
-    "next": "15.0.2",
-    "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "next": "^15.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-toastify": "^10.0.6"
   },
   "devDependencies": {
